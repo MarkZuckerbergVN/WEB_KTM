@@ -11,22 +11,22 @@ body {
 
 .container {
     display: flex;
-    gap: 0;
-    
-    max-width: 1200px; 
-    margin: 0 auto;
-
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    gap: 0;      
+    background-color: white;
+    max-width: 1200px;   
+    margin: 0 auto;     
+    overflow: hidden;  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
 }
+
 .sidebar {
     flex: 30%;
-    background-color: white;
     padding: 20px;
+    border-right: 1px solid #f1f1f1; 
 }
 
 .main-content {
     flex: 70%;
-    background-color: white;
     padding: 20px;
 }
 
